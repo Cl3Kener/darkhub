@@ -75,8 +75,8 @@
     <color name="issue_event_reopened">#6cc644</color>
     <color name="issue_event_lock">#333333</color>
 
-    <color name="primary">#3D3D3D</color>
-    <color name="primary_dark">#313131</color>
-    <color name="accent">#3797C7</color>
+    <color name="primary">#263238</color>
+    <color name="primary_dark">#263238</color>
+    <color name="accent">#009688</color>
 
 </resources>
