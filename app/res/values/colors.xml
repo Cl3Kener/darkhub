@@ -17,7 +17,7 @@
 
     <color name="background">#21272B</color>
     <color name="background_id">#21272B</color>
-    <color name="background_selected">#ECEFF1</color>
+    <color name="background_selected">#009688</color>
     <color name="inset_background">#21272B</color>
     <color name="inset_outer">#C7C7C7</color>
     <color name="inset_inner">#000000</color>
