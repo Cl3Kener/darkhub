@@ -19,7 +19,7 @@ import android.app.AlertDialog;
 import android.content.Context;
 
 /**
- * Alert dialog using the Holo Light theme
+ * Alert dialog using the Holo Dark theme
  */
 public class LightAlertDialog extends AlertDialog {
 
@@ -30,7 +30,7 @@ public class LightAlertDialog extends AlertDialog {
      * @return dialog
      */
     public static AlertDialog create(final Context context) {
-        return new LightAlertDialog(context, THEME_HOLO_LIGHT);
+        return new LightAlertDialog(context, THEME_HOLO_DARK);
     }
 
     private LightAlertDialog(final Context context, final int theme) {
@@ -42,7 +42,7 @@ public class LightAlertDialog extends AlertDialog {
     }
 
     /**
-     * Alert dialog builder using the Holo Light theme
+     * Alert dialog builder using the Holo Dark theme
      */
     public static class Builder extends AlertDialog.Builder {
 
@@ -53,7 +53,7 @@ public class LightAlertDialog extends AlertDialog {
          * @return dialog builder
          */
         public static LightAlertDialog.Builder create(final Context context) {
-            return new LightAlertDialog.Builder(context, THEME_HOLO_LIGHT);
+            return new LightAlertDialog.Builder(context, THEME_HOLO_DARK);
         }
 
         private Builder(Context context) {
